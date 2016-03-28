@@ -57,6 +57,5 @@ int main(int argc, char **argv) {
 void printManPage() {
 	printf("Error: invalid use.\n");
 	printf(" ktimer [-flag] [message]\n");
-	printf(" -l: info for all timers\n");	
 	printf(" -s: write [message] to the module after timer expires\n");
 }
